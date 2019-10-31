@@ -1,0 +1,30 @@
+.avatarUser {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.aboutUser {
+  width: 30%;
+  padding : 10px
+}
+
+.aboutRepos {
+  width : 70%;
+  padding: 10px;
+}
+
+.nameUser {
+  margin-bottom: 3px;
+  font-size: 1.5em;
+}
+
+.aliasUser {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color : rgba(0,0,0,.4)
+}
+
+.infoUser {
+  font-size: .9em;
+  margin-bottom: 8px;
+}

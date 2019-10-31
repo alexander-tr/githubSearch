@@ -1,0 +1,110 @@
+body {
+  margin : 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+input,button {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,p {
+  margin : 0
+}
+
+.header {
+  height : 60px;
+  background-color: #24292E;
+  color : #fff;
+  margin-bottom: 20px;
+  padding : 0 10px
+}
+
+.headerContainer {
+  height : 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+}
+
+input {
+  width:200px;
+  height : 30px;
+  border:none;
+  background-color: #3F4448;
+  border-radius: 4px;
+  padding : 0 10px;
+  margin-right: 10px;
+  color: rgba(255,255,255,.5);
+}
+
+button {
+  display: inline-block;
+  height : 30px;
+  background-color: transparent;
+  border:1px solid #fff;
+  color: #fff;
+  padding : 0 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1000px;
+  margin:  auto;
+  display: flex;
+}
+
+
+.aboutTitleSection {
+  display: inline-block;
+  font-size: 1em;
+  margin-right: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.countTitleSection {
+  background-color: #E0E0E0;
+  font-size: .8em;
+  color: #444;
+  padding: 0 10px;
+  border-radius: 20px;
+}
+
+.errorComponent {
+  height : 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgba(221, 81, 69,.7);
+  color : #fff;
+}
+
+@media screen and (max-width : 780px) {
+.container  {
+  flex-direction: column;
+}
+.aboutUser {
+  width: 100%;
+  text-align: center;
+}
+
+.aboutRepos {
+  width : 100%;
+}
+
+.avatarUser {
+  display: block;
+  width: 240px;
+  margin :auto;
+  padding-bottom: 20px;
+}
+
+}
+
+
